@@ -1,0 +1,32 @@
+# Build results
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider and VS Code
+.idea/
+.vscode/
+
+# .NET secrets / settings
+appsettings.json
+appsettings.Development.json
+secrets.json
+
+# Docker-related
+Dockerfile.*
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# Misc
+*.pfx
+*.snk
+publish/
+.vscode/
+.vs/
+*.tar
